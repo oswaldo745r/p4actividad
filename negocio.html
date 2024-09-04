@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Capa de lógica de negocio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Oswaldo Rojano Mora</p>
+            <nav>
+                <a href="#capas">¿Que es la Capa de lógica de negocio?</a>
+                <a href="#tipoCapas">¿Cómo se estructura una arquitectura en capas?</a>
+                <a href="index.html">Inicio</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <section id="hero">
+        <h1>Patrones de arquitectura<br>Capa de lógica de negocio</h1>
+    </section>
+
+    <section id="capas">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2><span class="color-acento">Capa de lógica de negocio</span></h2>
+                <p>La Capa de Negocios (o Capa de Lógica de Negocio) es una parte central de la arquitectura de software que encapsula toda la lógica que define cómo funcionan las reglas de negocio y los procesos dentro de una aplicación. Esta capa es responsable de la implementación de las políticas, reglas y procedimientos que guían el comportamiento del sistema según los requisitos de negocio.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="capas2">
+        <div class="container">
+            <div class="img2-container"></div>
+            <div class="texto">
+
+                <h2><span class="color-acento">Funciones principales</span></h2>
+                <ul>
+                    <li>Gestión de reglas de negocio: Implementa las reglas que determinan cómo se deben procesar y manipular los datos dentro del contexto de la aplicación.</li>
+                    <li>Procesamiento de operaciones: Lleva a cabo las operaciones de negocio clave, como cálculos, transformaciones de datos, validaciones y cualquier otra lógica específica del dominio.</li>
+                    <li>Coordinación de flujos de trabajo: Organiza el flujo de trabajo y los procesos que deben seguirse para cumplir con un objetivo de negocio, asegurando que las tareas se ejecuten en el orden correcto.</li>
+                    <li>Interacción con otras capas: Actúa como intermediario entre la capa de presentación (que maneja la interacción con el usuario) y la capa de acceso a datos, procesando las solicitudes de la capa de presentación y utilizando la capa de acceso a datos para recuperar y almacenar información.</li>
+                    <li>Aplicación de políticas de negocio: Garantiza que todas las políticas y procedimientos del negocio se apliquen de manera consistente en toda la aplicación.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="tipoCapas">
+        <div class="container">
+            <h2>Patrón por capas</h2>
+
+            <div class="programas">
+                    <div class="carta">
+                        <h3>Capa de presentación</h3>
+                        <a href="presentacion.html" id="link-presentacion"></a>
+                        <button data-target="link-presentacion">+ Info</button>
+                    </div>
+                
+                    <div class="carta">
+                        <h3>Capa de lógica de negocio</h3>
+                        <a href="negocio.html" id="link-negocio"></a>
+                        <button data-target="link-negocio">+ Info</button>
+                    </div>
+
+    
+                
+                    <div class="carta">
+                        <h3>Capa de acceso a datos</h3>
+                        <a href="datos.html" id="link-datos"></a>
+                        <button data-target="link-datos">+ Info</button>
+                    </div>
+
+                    <div class="carta">
+                        <h3>Capa de persistencia</h3>
+                        <a href="persistencia.html" id="link-persistencia"></a>
+                        <button data-target="link-persistencia">+ Info</button>
+                    </div>
+    
+                
+                    <div class="carta">
+                        <h3>Capa de servicios</h3>
+                        <a href="servicios.html" id="link-servicios"></a>
+                        <button data-target="link-servicios">+ Info</button>
+                    </div>   
+            </div>
+        </div>
+    </section>
+
+    <script src="java.js"></script>
+
+
+   
+
+    <footer>
+        <div class="container">
+            <p>&copy; Oswaldo Rojano</p>
+        </div>
+    </footer>
+</body>
+</html>

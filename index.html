@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Patrón por capas (Layered)</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Oswaldo Rojano Mora</p>
+            <nav>
+                <a href="#capas">¿Que es el patron por capas?</a>
+                <a href="#tipoCapas">¿Cómo se estructura una arquitectura en capas?</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <section id="hero">
+        <h1>Patrones de arquitectura<br>Patron por capas(Layered)</h1>
+    </section>
+
+    <section id="capas">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2><span class="color-acento">Patrón por capas (Layered)</span></h2>
+                <p>El Patrón por Capas (Layered) es un modelo de diseño arquitectónico utilizado en el desarrollo de software, donde el sistema se organiza en capas jerárquicas. Cada capa tiene una responsabilidad específica y se comunica únicamente con las capas adyacentes. Este patrón facilita la separación de preocupaciones, permitiendo que cada capa se enfoque en un aspecto particular del sistema, como la interfaz de usuario, la lógica de negocio, el acceso a datos, y la persistencia.</p>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <section id="complemento">
+        <div class="container">
+            <body>
+                <div class="texto">
+                <h1>Video explicativo</h1>
+               </div>
+               <div class="video"></div>
+                <!-- Aquí pega el código de incrustación de YouTube -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VvvHSYzITPo" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </body>
+        </div>
+    </section>
+
+    <section id="tipoCapas">
+        <div class="container">
+            <h2>Patrón por capas</h2>
+
+            <div class="programas">
+                    <div class="carta">
+                        <h3>Capa de presentación</h3>
+                        <a href="presentacion.html" id="link-presentacion"></a>
+                        <button data-target="link-presentacion">+ Info</button>
+                    </div>
+                
+                    <div class="carta">
+                        <h3>Capa de lógica de negocio</h3>
+                        <a href="negocio.html" id="link-negocio"></a>
+                        <button data-target="link-negocio">+ Info</button>
+                    </div>
+
+    
+                
+                    <div class="carta">
+                        <h3>Capa de acceso a datos</h3>
+                        <a href="datos.html" id="link-datos"></a>
+                        <button data-target="link-datos">+ Info</button>
+                    </div>
+
+                    <div class="carta">
+                        <h3>Capa de persistencia</h3>
+                        <a href="persistencia.html" id="link-persistencia"></a>
+                        <button data-target="link-persistencia">+ Info</button>
+                    </div>
+    
+                
+                    <div class="carta">
+                        <h3>Capa de servicios</h3>
+                        <a href="servicios.html" id="link-servicios"></a>
+                        <button data-target="link-servicios">+ Info</button>
+                    </div>   
+            </div>
+        </div>
+    </section>
+
+<script src="java.js"></script>
+
+   
+
+    <footer>
+        <div class="container">
+            <p>&copy; Oswaldo Rojano</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Capa de acceso a datos</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Oswaldo Rojano Mora</p>
+            <nav>
+                <a href="#capas">¿Que es la Capa de acceso a datos?</a>
+                <a href="#tipoCapas">¿Cómo se estructura una arquitectura en capas?</a>
+                <a href="index.html">Inicio</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <section id="hero">
+        <h1>Patrones de arquitectura<br>Capa de acceso a datos</h1>
+    </section>
+
+    <section id="capas">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2><span class="color-acento">Capa de acceso a datos</span></h2>
+                <p>La Capa de Acceso a Datos es una parte clave en la arquitectura de software que se encarga de la comunicación directa con las fuentes de datos, como bases de datos, archivos, servicios web, o cualquier otro tipo de sistema de almacenamiento. Esta capa actúa como un intermediario entre la capa de lógica de negocio y las fuentes de datos, proporcionando una abstracción que permite acceder y manipular datos de manera controlada y eficiente.</p>
+            </div>
+        </div>
+    </section>
+    <section id="capas2">
+        <div class="container">
+            <div class="img2-container"></div>
+            <div class="texto">
+
+                <h2><span class="color-acento">Funciones principales</span></h2>
+                <ul>
+                    <li>Consulta de datos: Realiza consultas a las bases de datos u otras fuentes de datos para obtener la información requerida.</li>
+                    <li>Actualización de datos: Permite la inserción, actualización y eliminación de registros en las fuentes de datos.</li>
+                    <li>Gestión de conexiones: Maneja las conexiones a las bases de datos, asegurando que sean eficientes y seguras.</li>
+                    <li>Ejecución de comandos: Facilita la ejecución de procedimientos almacenados, comandos SQL, o llamadas a servicios externos para interactuar con los datos.</li>
+                    <li>Manejo de errores: Gestiona las excepciones o errores que puedan ocurrir durante la interacción con las fuentes de datos.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="tipoCapas">
+        <div class="container">
+            <h2>Patrón por capas</h2>
+
+            <div class="programas">
+                    <div class="carta">
+                        <h3>Capa de presentación</h3>
+                        <a href="presentacion.html" id="link-presentacion"></a>
+                        <button data-target="link-presentacion">+ Info</button>
+                    </div>
+                
+                    <div class="carta">
+                        <h3>Capa de lógica de negocio</h3>
+                        <a href="negocio.html" id="link-negocio"></a>
+                        <button data-target="link-negocio">+ Info</button>
+                    </div>
+
+    
+                
+                    <div class="carta">
+                        <h3>Capa de acceso a datos</h3>
+                        <a href="datos.html" id="link-datos"></a>
+                        <button data-target="link-datos">+ Info</button>
+                    </div>
+
+                    <div class="carta">
+                        <h3>Capa de persistencia</h3>
+                        <a href="persistencia.html" id="link-persistencia"></a>
+                        <button data-target="link-persistencia">+ Info</button>
+                    </div>
+    
+                
+                    <div class="carta">
+                        <h3>Capa de servicios</h3>
+                        <a href="servicios.html" id="link-servicios"></a>
+                        <button data-target="link-servicios">+ Info</button>
+                    </div>   
+            </div>
+        </div>
+    </section>
+    <script src="java.js"></script>
+
+   
+
+    <footer>
+        <div class="container">
+            <p>&copy; Oswaldo Rojano</p>
+        </div>
+    </footer>
+</body>
+</html>

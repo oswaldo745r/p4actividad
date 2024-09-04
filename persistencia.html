@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Capa de persistencia</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Oswaldo Rojano Mora</p>
+            <nav>
+                <a href="#capas">¿Que es la Capa de persistencia?</a>
+                <a href="#tipoCapas">¿Cómo se estructura una arquitectura en capas?</a>
+                <a href="index.html">Inicio</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <section id="hero">
+        <h1>Patrones de arquitectura<br>Capa de persistencia</h1>
+    </section>
+
+    <section id="capas">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2><span class="color-acento">Capa de persistencia</span></h2>
+                <p>La Capa de Persistencia es una parte fundamental en la arquitectura de software, especialmente en aplicaciones que siguen el patrón por capas. Su principal responsabilidad es gestionar cómo los datos se almacenan y se recuperan desde una base de datos u otros sistemas de almacenamiento persistente (como archivos, sistemas NoSQL, etc.).</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="capas2">
+        <div class="container">
+            <div class="img2-container"></div>
+            <div class="texto">
+
+                <h2><span class="color-acento">Funciones principales</span></h2>
+                <ul>
+                    <li>Almacenamiento de datos: Gestiona las operaciones necesarias para guardar datos en una base de datos o sistema de almacenamiento.</li>
+                    <li>Recuperación de datos: Facilita la obtención de datos almacenados para que otras capas del sistema puedan utilizarlos.</li>
+                    <li>Manejo de transacciones: Asegura que las operaciones de almacenamiento se realicen de manera segura y que los cambios se puedan revertir si ocurre un error.</li>
+                    <li>Mapeo objeto-relacional (ORM): En algunos sistemas, la capa de persistencia también se encarga de convertir los objetos del dominio en datos que pueden ser almacenados en tablas de bases de datos relacionales y viceversa.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="tipoCapas">
+        <div class="container">
+            <h2>Patrón por capas</h2>
+
+            <div class="programas">
+                    <div class="carta">
+                        <h3>Capa de presentación</h3>
+                        <a href="presentacion.html" id="link-presentacion"></a>
+                        <button data-target="link-presentacion">+ Info</button>
+                    </div>
+                
+                    <div class="carta">
+                        <h3>Capa de lógica de negocio</h3>
+                        <a href="negocio.html" id="link-negocio"></a>
+                        <button data-target="link-negocio">+ Info</button>
+                    </div>
+
+    
+                
+                    <div class="carta">
+                        <h3>Capa de acceso a datos</h3>
+                        <a href="datos.html" id="link-datos"></a>
+                        <button data-target="link-datos">+ Info</button>
+                    </div>
+
+                    <div class="carta">
+                        <h3>Capa de persistencia</h3>
+                        <a href="persistencia.html" id="link-persistencia"></a>
+                        <button data-target="link-persistencia">+ Info</button>
+                    </div>
+    
+                
+                    <div class="carta">
+                        <h3>Capa de servicios</h3>
+                        <a href="servicios.html" id="link-servicios"></a>
+                        <button data-target="link-servicios">+ Info</button>
+                    </div>   
+            </div>
+        </div>
+    </section>
+    <script src="java.js"></script>
+
+
+   
+
+    <footer>
+        <div class="container">
+            <p>&copy; Oswaldo Rojano</p>
+        </div>
+    </footer>
+</body>
+</html>
